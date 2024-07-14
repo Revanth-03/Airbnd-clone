@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Airbnd Clone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a front-end implementation for an Airbnb clone. It includes various React.js components to create a responsive and interactive booking experience. The project is built with clean and modular code, making it scalable and robust.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Responsive navigation bar with profile menu
+-Sticky header with search bar and logo
+-Mobile-friendly navigation with bottom navigation bar
+-Card components displaying rental listings
+-Dynamic filtering of listings
+-Custom styles using CSS and Material-UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Responsive Navbar
 
-### `npm test`
+The navigation bar includes a profile menu and a search bar. It is designed to be responsive and adjusts its layout based on the screen size. The profile menu provides options for signing up, logging in, and accessing various features.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Sticky Header
 
-### `npm run build`
+The header remains fixed at the top of the page when scrolling, ensuring that the search bar and navigation options are always accessible. This improves the user experience by providing easy access to navigation and search functionality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Card Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Cards component displays a list of rental properties in a card format. Each card shows images, titles, ratings, descriptions, and prices of the properties. The cards are designed to be responsive and adjust their layout based on the screen size.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dynamic Filtering
 
-### `npm run eject`
+The Filter component allows users to filter rental listings based on different criteria. It provides an interactive way to narrow down the search results by clicking on different filter options. The selected filter is highlighted, and the corresponding listings are displayed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Mobile-Friendly Navigation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The bottom navigation bar and mobile search bar provide a user-friendly navigation experience on mobile devices. The bottom navigation bar includes icons for recent searches, favorites, and nearby locations. The mobile search bar ensures that search functionality is easily accessible on smaller screens.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get started with this project, clone the repository and install the dependencies:
 
-## Learn More
+```bash
+git clone https://github.com/Revanth-03/Airbnd-clone.git
+cd Airbnd-clone
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After installing the dependencies, start the development server:
 
-### Code Splitting
+```bash
+npm start
+```
+Open your browser and navigate to http://localhost:3000 to see the project in action.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a new Pull Request.
 
-### Making a Progressive Web App
+Please ensure your code adheres to the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Write clear, concise commit messages.
+- Follow the existing code style and structure.
+- Test your changes thoroughly.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
