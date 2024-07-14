@@ -12,12 +12,17 @@ This project is a front-end implementation for an Airbnb clone. It includes vari
 
 ## Features
 
--Responsive navigation bar with profile menu
--Sticky header with search bar and logo
--Mobile-friendly navigation with bottom navigation bar
--Card components displaying rental listings
--Dynamic filtering of listings
--Custom styles using CSS and Material-UI
+- Responsive navigation bar with profile menu.
+
+- Sticky header with search bar and logo.
+
+- Mobile-friendly navigation with bottom navigation bar.
+
+- Card components displaying rental listings.
+
+- Dynamic filtering of listings.
+
+- Custom styles using CSS and Material-UI.
 
 ### Responsive Navbar
 
