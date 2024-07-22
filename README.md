@@ -2,6 +2,9 @@
 
 This project is a front-end implementation for an Airbnb clone. It includes various React.js components to create a responsive and interactive booking experience. The project is built with clean and modular code, making it scalable and robust.
 
+
+**$${\color{red}Note:}$$**  If you encounter a "Dangerous site" warning when visiting the live link, please be assured that this project is completely safe. No personal information will be taken from your browser. To proceed, click on **"Details"** and then on **"Visit this unsafe site"** to view the project.
+
 ## Table of Contents
 
 - [Features](#features)
